@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 .section-inner {
-	@apply min-h-screen w-full max-w-7xl mx-auto py-20;
+	@apply w-full max-w-7xl mx-auto py-20;
 }

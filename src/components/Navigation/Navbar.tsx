@@ -2,7 +2,7 @@ import LogoWithText from "./LogoWithText"
 
 export default function Navbar() {
 	return (
-		<div className="w-full max-w-7xl navbar bg-base-100 shadow rounded-full px-16 fixed top-4 left-1/2 -translate-x-1/2">
+		<div className="max-w-7xl navbar bg-base-100 shadow rounded-full px-16 w-[calc(100%-2rem)] fixed top-4 left-1/2 -translate-x-1/2 z-20">
 			<LogoWithText />
 			<div className="flex-none">
 				<ul className="menu menu-horizontal px-1">
