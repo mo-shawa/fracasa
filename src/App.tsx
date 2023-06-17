@@ -11,6 +11,7 @@ import {
 	familyImageVariants,
 	familyImageContainerVariants,
 } from "./utils/framer"
+import Footer from "./components/Footer"
 
 function App() {
 	return (
@@ -252,6 +253,7 @@ function App() {
 
 				<PrimaryButton text="Apply now" />
 			</motion.section>
+			<Footer />
 		</>
 	)
 }
