@@ -144,7 +144,7 @@ function App() {
 						>
 							Pay only a 5% deposit
 						</motion.h1>
-						<p className="text-xl">
+						<p className="text-xl text-center md:text-left">
 							Calculate your budget with us in minutes, then take the first step
 							towards homeownership with a minimal initial investment.
 						</p>
@@ -175,7 +175,7 @@ function App() {
 						>
 							Fracasa buys your dream home
 						</motion.h1>
-						<p className="text-xl">
+						<p className="text-xl text-center md:text-left">
 							Fracasa buys the home, and you move in. Savings for your down
 							payment are built into your Fracasa monthly payment, so they add
 							up over time. You’ll be mortgage eligible in 3 years (or less!)
@@ -219,7 +219,7 @@ function App() {
 						>
 							Own your home in 3 years
 						</motion.h1>
-						<p className="text-xl">
+						<p className="text-xl text-center md:text-left">
 							Take control of your future as you buy out Fracasa's equity,
 							paving the way for you to secure a mortgage and become a proud
 							homeowner.
