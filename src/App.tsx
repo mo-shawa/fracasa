@@ -185,7 +185,7 @@ function App() {
 							variants={twoColumnChildVariants}
 							className="flex flex-col text-brand font-bold text-xl"
 						></motion.div>
-						<PrimaryButton text="Check your eligibility" />
+						<PrimaryButton text="Apply now" />
 					</motion.div>
 					<motion.div
 						variants={twoColumnChildVariants}
@@ -229,7 +229,7 @@ function App() {
 							variants={twoColumnChildVariants}
 							className="flex flex-col text-brand font-bold text-xl"
 						></motion.div>
-						<PrimaryButton text="Check your eligibility" />
+						<PrimaryButton text="Get started" />
 					</motion.div>
 				</motion.div>
 			</section>
