@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+	@apply bg-slate-50 overflow-x-hidden;
+}
+
 .section-inner {
-	@apply w-full max-w-7xl mx-auto py-20;
+	@apply w-full max-w-7xl mx-auto my-20;
+}
+
+body {
+	@apply font-sans antialiased;
 }

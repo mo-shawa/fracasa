@@ -5,10 +5,10 @@ export default function Navbar() {
 		<div className="max-w-7xl navbar bg-base-100 shadow rounded-full px-16 w-[calc(100%-2rem)] fixed top-4 left-1/2 -translate-x-1/2 z-20">
 			<LogoWithText />
 			<div className="flex-none">
-				<ul className="menu menu-horizontal px-1">
+				<ul className="menu menu-horizontal px-1 font-semibold text-base">
 					<li>
 						<details>
-							<summary>Parent</summary>
+							<summary>Learn</summary>
 							<ul className="p-2 bg-base-100">
 								<li>
 									<a>Link 1</a>

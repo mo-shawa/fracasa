@@ -7,6 +7,7 @@ export default {
 		colors: {
 			...colors,
 			brand: "#342EE0",
+			brand2: "#3B5FE2",
 		},
 	},
 	plugins: [require("daisyui")],
