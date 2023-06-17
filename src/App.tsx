@@ -16,7 +16,7 @@ function App() {
 	return (
 		<>
 			<Navbar />
-			<section className="bg-slate-50  px-4 pt-20 relative">
+			<section className="bg-slate-50  px-4 pt-12 relative">
 				<motion.div
 					initial="hidden"
 					variants={twoColumnVariants}
@@ -135,7 +135,7 @@ function App() {
 						variants={twoColumnChildVariants}
 						className="flex flex-col justify-center order-1 md:order-2 items-center md:items-start gap-6"
 					>
-						<span className="text-2xl font-bold">
+						<span className="text-2xl font-bold text-center md:text-left">
 							1. Ready to be a homeowner?
 						</span>
 						<motion.h1
@@ -166,7 +166,7 @@ function App() {
 						variants={twoColumnChildVariants}
 						className="flex flex-col justify-center items-center md:items-start gap-6"
 					>
-						<span className="text-2xl font-bold">
+						<span className="text-2xl font-bold text-center md:text-left">
 							2. Move in and start saving
 						</span>
 						<motion.h1
@@ -210,7 +210,7 @@ function App() {
 						variants={twoColumnChildVariants}
 						className="flex flex-col justify-center order-1 md:order-2 items-center md:items-start gap-6"
 					>
-						<span className="text-2xl font-bold">
+						<span className="text-2xl font-bold text-center md:text-left">
 							3. Buy out Fracasa's equity position
 						</span>
 						<motion.h1

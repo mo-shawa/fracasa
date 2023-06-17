@@ -1,4 +1,4 @@
-import RightArrow from "../assets/right-arrow.svg"
+import RightArrow from "../assets/misc/right-arrow.svg"
 import { motion } from "framer-motion"
 
 type PrimaryButtonProps = {
