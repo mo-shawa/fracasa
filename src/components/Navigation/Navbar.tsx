@@ -45,7 +45,7 @@ function NavArrowButton({ text }: { text: string }) {
       className='group relative flex w-full max-w-xs items-center justify-center gap-4 rounded-full text-white shadow shadow-brand2/70 bg-brand2 px-5 pr-12 py-3
 		'>
       {text}
-      <img src={RightArrow} alt='Right Arrow' className='h-4 absolute right-6 group-hover:translate-x-2 transi' />
+      <img src={RightArrow} alt='Right Arrow' className='h-4 absolute right-6 group-hover:translate-x-2 transition-transform' />
     </button>
   )
 }
