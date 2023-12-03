@@ -3,13 +3,19 @@
 @tailwind utilities;
 
 body {
-	@apply bg-slate-50 overflow-x-hidden;
+  @apply bg-slate-50 overflow-x-hidden;
 }
 
 .section-inner {
-	@apply w-full max-w-7xl mx-auto my-20;
+  @apply w-full max-w-7xl mx-auto my-20;
 }
 
 body {
-	@apply font-sans antialiased;
+  @apply font-sans antialiased;
+}
+
+h1,
+h2,
+h3 {
+  @apply text-brand text-5xl text-center md:text-start font-bold leading-none tracking-tight;
 }
