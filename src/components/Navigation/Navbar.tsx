@@ -13,21 +13,21 @@ export default function Navbar() {
               <summary>Learn</summary>
               <ul className='p-2 bg-base-100'>
                 <li>
-                  <a>Link 1</a>
+                  <a href='#'>Link 1</a>
                 </li>
                 <li>
-                  <a>Link 2</a>
+                  <a href='#'>Link 2</a>
                 </li>
               </ul>
             </details>
           </li>
           <li>
-            <a>Calculator</a>
+            <a href='#'>Calculator</a>
           </li>
-          <a className='mr-4'>
+          <a href='#' className='mr-4'>
             <NavOutlineButton text='Log in' />
           </a>
-          <a>
+          <a href='#'>
             <NavArrowButton text='Get Started' />
           </a>
         </ul>
@@ -45,7 +45,7 @@ function NavArrowButton({ text }: { text: string }) {
       className='group relative flex w-full max-w-xs items-center justify-center gap-4 rounded-full text-white shadow shadow-brand2/70 bg-brand2 px-5 pr-12 py-3
 		'>
       {text}
-      <img src={RightArrow} alt='Right Arrow' className='h-4 absolute right-6 group-hover:translate-x-2 transition-transform' />
+      <img src={RightArrow} alt='Right Arrow' className='h-4 absolute right-6 group-hover:translate-x-2 transi' />
     </button>
   )
 }
